@@ -15,7 +15,7 @@
 
 - **前端框架**：Next.js 14 (App Router)
 - **样式**：Tailwind CSS
-- **数据库**：MySQL + Prisma ORM
+- **数据库**：SQLite + Prisma ORM
 - **认证**：JWT + HttpOnly Cookies
 - **动画**：Framer Motion
 - **图标**：Lucide React
@@ -35,7 +35,7 @@ npm install
 
 ```env
 # 数据库连接
-DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
+DATABASE_URL="file:./prisma/dev.db"
 
 # JWT 密钥
 JWT_SECRET="your-super-secret-jwt-key"
